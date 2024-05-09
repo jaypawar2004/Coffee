@@ -1,0 +1,601 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+height: 100%;
+    
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+}
+
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 237, 196);
+    position: relative;
+}
+
+#page1 h2{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 30px;
+}
+#page1 h3{
+    position: absolute;
+    top: 10%;
+    right: 7%;
+}
+#page1 span{
+    color: orangered;
+}
+
+#page1 h1{
+    position: absolute;
+    font-size: 85px;
+top: 20%;
+left: 10%;
+font-weight: 900;
+}
+
+#page1 p{
+    position: absolute;
+    top: 63%;
+    left: 10%;
+    font-size: 20px;
+    font-weight: 550;
+}
+#page1 button{
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: 17px;
+    color: black;
+    font-weight: 550;
+    /* background-color: r; */
+    border-radius: 5px;
+    border: 2px solid black;
+}
+#page1 button:hover{
+    background-color: rgb(255, 68, 0);
+color: white;
+}
+
+#page1 img{
+position: absolute;
+right: 0%;
+bottom: 5%;
+}
+
+#nav{
+    width: 40%;
+    height: 60px;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -45%);
+    display: flex;
+    justify-content: space-evenly;
+   border-radius: 50px;
+    align-items: center;
+    
+}
+
+#nav a{
+
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: gilroy;
+    font-weight: 450;
+
+}
+#nav span{
+
+    color: orangered;
+
+}
+#nav span:hover{
+
+    color: black;
+    
+}
+ #nav a:hover{
+
+    color: orangered;
+
+}
+
+#page2{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.818);
+    /* background-image: url();
+    background-size: cover;
+    background-position: center; */
+
+}
+
+#page2 #sasta{
+
+    width: 100%;
+    height: 250px;
+    background-color: transparent;
+    display: inline-block;
+    display: flex;
+
+    
+}
+
+#page2 #sasta .line{
+
+    width: 25%;
+    height: 100%;
+    background-color: transparent;
+    margin-left: 5px;
+    margin-top: 10px;
+    position: relative;
+
+
+}
+
+#sasta .line img{
+
+    width: 90px;
+border-radius: 15px;
+padding: 10px;
+
+}
+
+#sasta .line h1{
+
+    text-transform: uppercase;
+    /* width: 550; */
+    font-weight: 600;
+}
+
+#sasta .line p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.line .ek{
+    position: absolute;
+    bottom: 0%;
+    color: white;
+}
+
+#page2 #pto{
+width: 100%;
+height: 67%;
+background-color: transparent;
+position: relative;
+
+}
+#sasta .ek img:hover{
+    transition: all ease 0.2s;
+    scale: 1.2;
+}
+
+#pto #pto1{
+    width: 50%;
+    height: 80%;
+    /* background-color: red; */
+position: absolute;
+top: 10%;
+left: 9%;
+}
+
+#pto #pto1 img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+border-radius: 50px;
+
+
+}
+
+#pto #pto2{
+    width: 40%;
+    height: 80%;
+    /* background-color: red; */
+position: absolute;
+top: 10%;
+right: 0%;
+color: white;
+
+}
+
+#pto #pto2 h1{
+font-size: 55px;
+font-weight: 900;
+}
+
+#pto #pto2 p{
+    font-size: 20px;
+}
+
+#pto #pto2 button{
+position: relative;
+top: 10%;
+    width: 100px;
+    height: 40px;
+    /* background-color: orangered; */
+    border-radius: 5px;
+    /* color: black; */
+    font-weight: 700;
+}
+
+#pto2 button:hover{
+    background-color: orangered;
+    color: white;
+    
+}
+
+
+#page3{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.818);
+    /* background-color: red; */
+    position: relative;
+   
+}
+
+#page3 h1{
+    font-size: 55px;
+   text-align: center;
+   color: white;
+   margin-bottom: 15px;
+}
+
+#page3 #show{
+    width: 100%;
+    height: 80%;
+    background-color: transparent;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 40px;
+}
+#show #rav{
+    width: 25%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    /* background-color: blue; */
+    position: relative;
+    border: 3px solid rgb(255, 255, 255);
+    
+    border-radius: 50px;
+    
+}
+
+#show #rav .pack img{
+    /* height: 20%; */
+    width: 70%;
+    margin: 0px 50px;
+}
+
+#rav .pack h2{
+font-size: 40px;
+font-weight: 900;
+font-family: gilroy;
+color: rgb(0, 0, 0);
+text-align: center;
+}
+
+#rav .pack p{
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+#rav .pack h1{
+    position: absolute;
+    bottom: 4%;
+    font-family: gilroy;
+    color: black;
+   
+}
+
+#rav .pack button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    right: 10%;
+    bottom: 4%;
+    /* background-color: orangered; */
+    /* color: white; */
+    font-weight: 550;
+    font-size: 15px;
+}
+
+#show #rav:hover{
+    scale: 1.03;
+    transition: all ease 0.2s;
+}
+
+#page4{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.818);
+    /* background-color: red; */
+    
+}
+
+#page4 h1{
+    font-size: 55px;
+   text-align: center;
+   color: white;
+   margin-bottom: 15px;
+   
+}
+
+#page4 #link{
+    width: 80%;
+    height: 60px;
+    background-color: transparent;
+    
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+#page4 #link a{
+text-decoration: none;
+font-size: 23px;
+color: white;
+position: relative;
+top: 55%;
+
+}
+
+#link a:hover {
+    border: 2px solid orangered;
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+ #page4 #show1{
+    width: 100%;
+    height: 75%;
+    background-color: transparent;
+/* background-color: blue; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 60px;
+
+ }
+
+
+ #show1 #rav1{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    /* background-color: red; */
+    position: relative;
+    border: 3px solid rgb(255, 255, 255);
+   
+    border-radius: 50px;
+}
+
+#show1 #rav1 .pack img{
+    /* height: 20%; */
+    width: 70%;
+    margin: 0px 50px;
+}
+
+
+#rav1 .pack h2{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: gilroy;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    }
+    
+    #rav1 .pack p{
+        color: rgb(0, 0, 0);
+        margin-top: 20px;
+        font-size: 19px;
+    }
+    
+    #rav1 .pack h1{
+        position: absolute;
+        bottom: 4%;
+        font-family: gilroy;
+        color: black;
+       
+    }
+    
+    #rav1 .pack button{
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        position: absolute;
+        right: 10%;
+        bottom: 4%;
+    
+        font-weight: 550;
+        font-size: 15px;
+    }
+    
+    #show1 #rav1:hover{
+        scale: 1.03;
+        transition: all ease 0.5s;
+    }
+
+    .pack button:hover{
+        scale: 1.01;
+        background-color: orangered;
+        color: white;
+    }
+
+    #page5{
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+        background-color: rgba(0, 0, 0, 0.818);
+        position: relative;
+    }
+
+    #pg-5{
+        width: 90%;
+        height: 80%;
+        background-color: aqua;
+        border-radius: 50px;
+        /* background-image: url(https://img.freepik.com/free-psd/coffee-beans-powder_23-2148587100.jpg?size=626&ext=jpg) ; */
+        position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);        
+    }
+
+    #pg-5 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50px
+    }
+
+    #footer{
+        width: 100%;
+        height: 50%;
+        /* background-color: rgba(255, 0, 0, 0); */
+        background-image: url(https://images.unsplash.com/photo-1518832553480-cd0e625ed3e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80);
+        background-position: bottom;
+        background-size: cover;
+        display: flex;
+        overflow: hidden;
+
+    }
+    #footer-pto{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.604);
+        position: relative;
+    }
+
+    #footer img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    #footer-pto .last-1{
+        width: 100%;
+        height: 80%;
+        /* background-color: transparent; */
+        /* background-color: red; */
+        text-align: center;
+        position: relative;
+        top: 5%;
+        left: 5%;
+        color: white;
+        
+      
+
+    }
+
+    .last-1 h1{
+        font-size: 60px;
+        margin-bottom: 25px;
+        color: white;
+    }
+
+    .last-1 span{
+        color: orangered;
+    }
+
+    .last-1 p{
+        font-size: 20px;
+margin-bottom: 35px;
+color: white;
+    }
+
+    .last-1 i{
+
+        border: 0px solid black;
+        border-radius: 50%;
+        font-size: 40px;
+        background-color: white;
+        color: dimgray;
+        gap: 30px;
+
+    }
+
+    #footer-pto .last-1 h2{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    #footer-pto .last-1 h3{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    #footer-pto .last-1 li{
+        text-decoration: none;
+        list-style: none;
+        text-align: left;
+        align-items: center;
+        margin-bottom: 20px;
+        position: relative;
+        left: 40%;
+    }
+    #footer-pto .last-1 a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+       
+    }
+
+    .last-1 #chhotu{
+        width: 100%;
+        height: 100px;
+        /* background-color: aqua; */
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    #chhotu img{
+width: 20%;
+height: 80px;
+border-radius: 10px;
+
+    }
+    #chhotu1 img{
+width: 20%;
+height: 80px;
+border-radius: 10px;
+
+    }
+    .last-1 #chhotu1{
+        width: 100%;
+        height: 100px;
+        /* background-color: rgb(20, 72, 72); */
+        display: flex;
+    }
+
+     
